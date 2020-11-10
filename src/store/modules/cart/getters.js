@@ -1,5 +1,11 @@
 export default {
-  cartData(state) {
-    return state.cart;
+  products(state) {
+    return state.items;
+  },
+  totalSum(state) {
+    return state.total.toFixed(2);
+  },
+  quantity(state) {
+    return state.qty;
   }
 };

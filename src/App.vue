@@ -10,22 +10,9 @@ export default {
 	components: {
 		TheHeader,
 	},
-	data() {
-		return {
-			isLoggedIn: false,
-		};
-	},
 	computed: {
 		products() {
 			return this.$store.getters['product/products'];
-		},
-	},
-	methods: {
-		login() {
-			this.isLoggedIn = true;
-		},
-		logout() {
-			this.isLoggedIn = false;
 		},
 	},
 };

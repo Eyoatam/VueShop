@@ -45,6 +45,7 @@ li {
 	padding: 1rem;
 	box-shadow: -8px -8px 8px 0 rgba(255, 255, 255, 1),
 		8px 8px 8px 0 rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
 	text-align: center;
 	max-width: 25rem;
 }

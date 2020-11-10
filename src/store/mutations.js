@@ -1,8 +1,8 @@
 export default {
-  login() {
-    this.isLoggedIn = true;
+  login(state) {
+    state.isLoggedIn = true;
   },
-  logout() {
-    this.isLoggedIn = false;
+  logout(state) {
+    state.isLoggedIn = false;
   }
 };
