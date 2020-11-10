@@ -1,7 +1,9 @@
 import { createStore } from 'vuex';
-import rootMutations from './mutations';
-import rootActions from './actions';
-import rootGetters from './getters';
+import cartModule from './modules/cart/index.js';
+import productModule from './modules/products/index.js';
+import rootMutations from './mutations.js';
+import rootActions from './actions.js';
+import rootGetters from './getters.js';
 
 const store = createStore({
   modules: {
@@ -17,3 +19,5 @@ const store = createStore({
   actions: rootActions,
   getters: rootGetters
 });
+
+export default store;
