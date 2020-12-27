@@ -8,7 +8,7 @@
 # Clone to this repo
 git clone git@github.com:Eyoatam/VueShop.git
 
-# Go to project directory
+# Navigate to project directory
 cd VueShop
 
 # Install Dependencies
