@@ -2,6 +2,8 @@
 
 ## Project Setup
 
+> Note: If You are using npm you should delete the yarn.lock file
+
 ```bash
 # Clone to this repo
 git clone git@github.com:Eyoatam/VueShop.git
